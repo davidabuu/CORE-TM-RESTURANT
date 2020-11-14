@@ -42,7 +42,12 @@ footer{
     height: 50vh !important;
 }
 /* Responsive Design */
-@media(max-width:500px){
+@media(max-width:768px){
+    .heights{
+        height: 30vh !important;
+    }
+}
+@media(max-width:540px){
     header h2{
         font-size: 20px !important;
     }
@@ -60,5 +65,25 @@ footer{
     section h4{
         font-size: 20px;
         text-align: justify;
+    }
+}
+@media(max-width:420px){
+    section h4{
+        font-size: 15px;
+    }
+    .heights{
+        height: 35vh !important;
+        text-align: center !important;
+    }
+}
+@media(max-width:320px){
+    .heights{
+        height: 40vh !important;
+    }
+}
+@media(max-width:280px){
+    .heights{
+        height: 40vh !important;
+        text-align: left !important;
     }
 }
