@@ -93,3 +93,24 @@ footer{
         font-size: 20px !important;
     }
 }
+@media(max-width:400px){
+    .heights{
+        margin-top: 50px !important;
+        padding-bottom: 30px !important;
+    }
+    .slick.slick-prev::before{
+        padding-left: 1rem;
+    }
+    .para{
+        font-size: 10px !important;
+    }
+    .para h2{
+        font-size: 20px !important;
+    }
+}
+@media(max-width:500px){
+    .slick-prev::before,
+    .slick-next::before{
+        display: none !important;
+    }
+}
