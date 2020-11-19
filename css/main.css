@@ -94,7 +94,7 @@ footer{
         margin-bottom: 10px !important;
     }
 }
-@media(max-width:650px){
+@media(max-width:658px){
     header h2{
         font-size: 18px !important;
     }
@@ -117,5 +117,20 @@ footer{
     }
     .para h2{
         font-size: 20px !important;
+    }
+}
+@media(max-width:394px){
+    header h2{
+        font-size: 15px !important;
+    }
+}
+@media(max-width:362px){
+    header p{
+        font-size: 10px !important;
+    }
+}
+@media(max-width:321px){
+    header h2{
+        font-size: 13px !important;
     }
 }
