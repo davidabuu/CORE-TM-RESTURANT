@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
+    box-sizing: border-box !important;
 }
 .navColor{
     background-color: #333;
@@ -10,6 +11,7 @@ img{
 }
 .img-size{
     width: 200px !important;
+    border-radius: 50% !important;
 }
 a{
     text-decoration: none !important;
@@ -43,9 +45,6 @@ header{
 .inner img{
     transition: all 0.5s ease-in-out;
 }
-.inner img:hover{
-    transform: scale(1.5);
-}
 .hovers:hover{
     color: coral !important;
 }
@@ -74,12 +73,17 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.cost img{
+.tasty{
+    margin-top: 100px !important;
+}
+.dark{
+    background-color: rgb(16, 16, 36) !important;
+}
+.img-size{
     margin: 0 auto !important;
 }
-.slick-prev::before,
-.slick-next::before{
-    color: coral !important;
+.aboutHeight{
+    background-color: whitesmoke !important;
 }
 
 /* Responsive Design */
@@ -88,18 +92,28 @@ footer{
         height: 30vh !important;
     }
 }
-@media(max-width:650px){
+@media(max-width:704px){
+    .title-underline{
+        margin-bottom: 10px !important;
+    }
+}
+@media(max-width:658px){
     header h2{
-        font-size: 20px !important;
+        font-size: 18px !important;
+    }
+     .title-underline{
+        margin-bottom: 40px !important;
+    }
+}
+@media(max-width:540px){
+    .title-underline{
+        margin-bottom: 20px !important;
     }
 }
 @media(max-width:400px){
     .heights{
         margin-top: 50px !important;
         padding-bottom: 30px !important;
-    }
-    .slick.slick-prev::before{
-        padding-left: 1rem;
     }
     .para{
         font-size: 10px !important;
@@ -108,3 +122,19 @@ footer{
         font-size: 20px !important;
     }
 }
+@media(max-width:394px){
+    header h2{
+        font-size: 15px !important;
+    }
+}
+@media(max-width:362px){
+    header p{
+        font-size: 15px !important;
+    }
+}
+@media(max-width:321px){
+    header h2{
+        font-size: 13px !important;
+    }
+}
+
